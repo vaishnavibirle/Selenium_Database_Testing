@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/irg/IdeaProjects/Selenium_DatabaseTesting/src/test">
+        <classes>
+            <class name="com.blz.selenium.test.Database_Test">
+                <methods>
+                    <include name="data_to_be_insert"/>
+                    <include name="data_to_be_update"/>
+                    <include name="data_to_be_retrieved"/>
+                    <include name="data_to_be_delete"/>
+                </methods>
+            </class>
+            <class name="com.blz.selenium.test.Live_Database_Testing">
+                <methods>
+                    <include name="retrieve_data"/>
+                    <include name="insert_data"/>
+                    <include name="update_data"/>
+                    <include name="delete_data"/>
+                    <include name="login_using_data_from_database"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

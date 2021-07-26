@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.blz.selenium.test.Live_Database_Testing" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-23T07:23:17" hostname="LAPTOP-GG01EQKS" time="0.394">
+  <properties/>
+  <testcase name="insert_data" classname="com.blz.selenium.test.Live_Database_Testing" time="0.394"/>
+  <system-out><![CDATA[************************ Table Data *******************
+ username  password 
+---------------------------------------------------------
+vaishnavibirle2209@gmail.com Saniya@123
+---------------------------------------------------------
+vaishnavibirle@gmail.com Saniya@123
+---------------------------------------------------------
+vaishnavibirle1133@gmail.com pass@123
+---------------------------------------------------------
+vaishnavibirle2209@gmail.com Saniya@123
+---------------------------------------------------------
+saniya@gmail.com pass@123
+---------------------------------------------------------
+saniya@gmail.com pass@123
+---------------------------------------------------------
+mehta@gmail.com pass@123
+---------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
